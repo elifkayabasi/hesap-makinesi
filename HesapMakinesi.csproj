@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- Proje türü: Windows Forms uygulaması -->
+    <OutputType>WinExe</OutputType>
+
+    <!-- .NET 6.0 veya üstü kullanılıyor (tercihe göre net8.0 yazılabilir) -->
+    <TargetFramework>net6.0-windows</TargetFramework>
+
+    <!-- Windows Forms desteğini etkinleştir -->
+    <UseWindowsForms>true</UseWindowsForms>
+
+    <!-- Nullable referans tipi uyarılarını açar (isteğe bağlı) -->
+    <Nullable>enable</Nullable>
+
+    <!-- Gizli derleyici uyarılarını açar -->
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+</Project>
